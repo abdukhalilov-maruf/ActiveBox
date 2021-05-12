@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+  
+}
+
+h3{
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+/* -----hrader------ */
+
+.header{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+
+}
+  
+.navbar{
+    display: flex;
+   
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.nav_links{
+   padding-left: 20px;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* -------intro-------- */
+.intro_background{
+ background-color: tomato;
+ margin-bottom: 50px;
+ background: url(../images/Home_01.jpg);
+}
+.intro{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.intro_inner h1{
+    font-size: 48px;
+}
+.intro_inner h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.intro_inner a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    border: 2px black solid;
+   
+    font-size: 16px;
+}
+
+
+
+/* ------block_service----- */
+
+.service_intro{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service_intro h3::after{
+    display: block;
+    content: "";
+    height: 3px;
+    opacity: 0.6;
+    width: 50px;
+    background-color: black;
+    margin: 25px auto;
+    
+
+}
+
+#img{
+    border-radius: 50%;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.elements{
+    padding: 20px;
+}
+
+
+
+
+/* ------about_us------- */
+.about_us{
+    padding: 60px 0;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+}
+
+
+.about_us h3::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    opacity: 0.6;
+    margin: 25px auto
+}
+
+.about_block{
+    margin-top: 40px;
+    display: flex;
+    text-align:initial;
+}
+.about_block p{
+    padding-left: 20px;
+}
+
+.developers{
+    display: flex;
+    justify-content: center;
+}
+.developers img{
+    margin: 18px;
+}
+
+.developer_name{
+    text-align: center;
+}
+
+
+
+
+/* -------latest_works------- */
+.latest_works{
+    margin: 60px 0;
+    text-align: center;
+}
+.latest_works h3::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    opacity: 0.7;
+    margin: 25px auto
+}
+
+
+.work_category{
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+    padding-left: 20px;
+    transition: 0.2s linear;
+    padding-bottom: 40px;
+}
+.work_category:hover{
+    color: red;
+}
+
+.works img{
+    margin: 15px 
+}
+
+/* -----contact_btn---- */
+
+.contact_btn{
+    margin-top: 100px;
+    height: 370px;
+    background: url(../images/contactbtn.jpg);
+    color: white;
+    text-align: center;
+}
+.h1{
+    padding: 90px;
+}
+
+.touch{
+    text-decoration: none;
+    margin: -30px;
+    color: white;
+    border: 2px white solid;
+    padding: 10px 40px;
+}
+
+
+/* -------blog_posts-------- */
+
+.blog_posts{
+    margin: 100px 0;
+    text-align: center;
+}
+.blog_posts h3::after{
+    display: block;
+    content: "";
+    height: 2px;
+    opacity: 0.6;
+    width: 50px;
+    background-color: black;
+    margin: 25px auto;
+}
+
+.post_1{
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+    
+
+}
+
+.post_1 a{
+    color: black;
+    text-decoration: none;
+}
+.post_1 a:hover,h4:hover{
+    color: red;
+}
+
+.post_inf{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+.data__theme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data{
+    font-size: 30px;
+    line-height: 27px;
+    border: 2px black solid;
+    padding: 15px 25px;
+}
+
+.theme{
+    padding-right: 80px;
+}
+
+.post_text{
+    padding-top: 15px;
+    text-align: left;
+}
+
+
+
+/* -------clients_form-------- */
+.clients_form{
+    background-color: #f8f8f8;
+}
+.clients{
+   text-align: center;
+    height: 500px;
+    
+}
+.clients_logo{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients a{
+    padding: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.clients a:hover{
+    color: red;
+}
+.clients h3{
+    padding-top: 30px;
+}
+
+#deorham{
+    text-align: center;
+    line-height: 16px;
+}
+#deorham small{
+    font-size: 14px;
+}
+
+#ratings{
+
+}
+#malik_media{
+
+}
+#bcause{
+
+}
+#wompify{
+
+}
+
+
+
+/* ------contact_form------- */
+.contact_form{
+    margin-top: 80px;
+    text-align: center;
+}
+.contact_form  h3::after{
+    display: block;
+    content: "";
+    height: 3px;
+    opacity: 0.6;
+    width: 50px;
+    background-color: black;
+    margin: 25px auto;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+    opacity: 0.8;
+}
+
+.contact{
+    width: 30%;
+    display: block;
+
+    text-align: center;
+}
+.contact h4{
+    text-transform: uppercase;
+    
+}
+.contact div{
+    margin-bottom: 18px;
+    text-align-last: left;
+}
+.contact p{
+    padding-left: 15px;
+}
+ 
+
+
+.send_message{
+    width: 70%;
+}
+
+.send_message input{
+    width: 355px;
+    height: 40px;
+    margin: 10px 15px;
+    padding-left: 10px;
+}
+
+.send_message textarea{
+    padding: 10px;
+    width: 745px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.send_btn{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+    border: 1px black solid;
+    padding: 10px 20px;
+    color: black;
+    margin-right: 50px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    opacity: 1;
+}
+
+
+
+
+/* ------footer------- */
+.footer{
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-top: 70px;
+    height: 300px;
+    background-color: red;
+
+   
+}
+.links{
+    padding-top: 70px;
+}
+.links a{
+    margin:5px;
+}
+
+.links::after{
+    display: block;
+    content: "";
+    height: 3px;
+    opacity: 0.6;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 25px auto;
+}
+
+#links{
+    border-radius: 50%;
+    overflow: hidden;
+}
